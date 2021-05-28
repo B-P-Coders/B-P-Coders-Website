@@ -1,10 +1,10 @@
 import styles from "../styles/Navbar.module.css"
 
-export default function Navbar()
+export default function Foot()
 {
     return(
-        <nav>
+        <footer>
             
-        </nav>
+        </footer>
     )
 }
