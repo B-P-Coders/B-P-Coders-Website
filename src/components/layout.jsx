@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 
 import Navbar from "./Navbar"
-import Foot from ""
+import Foot from "./Foot"
 import "./layout.css"
 
 export default function Layout({ children })
