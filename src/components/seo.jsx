@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet"
 function Seo({ description, lang, meta, title, author }) {
 
   const metaDescription = description
-  const defaultTitle = title
+  const defaultTitle = "B&P Coders"
 
   return (
     <Helmet
@@ -22,6 +22,10 @@ function Seo({ description, lang, meta, title, author }) {
         {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `author`,
+          content: `@B&P Coders`
         },
         {
           property: `og:description`,

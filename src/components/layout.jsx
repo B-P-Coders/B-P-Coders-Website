@@ -1,10 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
-
 import Navbar from "./Navbar"
 import Foot from "./Foot"
-import "./layout.css"
+
+import "../styles/layout.scss"
 
 export default function Layout({ children })
 {
