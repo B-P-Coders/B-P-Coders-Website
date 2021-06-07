@@ -3,4 +3,9 @@
     --primary-color: #1275BB;
     --secondary-color: #F4971E;
     --accent-color: #1CA69D;
+
+    --gradient-one: linear-gradient(50deg, var(--primary-color), var(--accent-color));
+    --gradient-two: linear-gradient(50deg, var(--accent-color), var(--secondary-color));
+    --gradient-three: linear-gradient(50deg, var(--secondary-color), var(--primary-color));
+    
 }

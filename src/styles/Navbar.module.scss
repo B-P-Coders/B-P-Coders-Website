@@ -2,6 +2,26 @@
 
 .nav
 {
-    background-color: var(--primary-color);
+    background-image: var(--gradient-one);
     font-family: $secondary-font;
+    padding: $pad;
+    border-radius: 0px 0px $border-rad $border-rad;
+    ul
+    {
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    li
+    {
+        margin: 0px;
+        list-style: none;
+    }
+    a
+    {
+        text-decoration: none;
+        color: var(--bg-color);
+    }
 }
