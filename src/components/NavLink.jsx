@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import styles from "../styles/NavLink.module.scss"
+import * as styles from "../styles/NavLink.module.scss"
 
 export default function NavLink({name, link})
 {

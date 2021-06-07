@@ -1,2 +1,7 @@
 @import "variables";
 
+.nav
+{
+    background-color: var(--primary-color);
+    font-family: $secondary-font;
+}

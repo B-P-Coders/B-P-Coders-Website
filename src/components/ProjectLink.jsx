@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "../styles/ProjectLink.scss"
+import * as styles from "../styles/ProjectLink.scss"
 
 export default function ProjectLink({ name, link, img })
 {

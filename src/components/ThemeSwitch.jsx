@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from "react"
 
-import styles from "../styles/ThemeSwitch.module.scss"
+import * as styles from "../styles/ThemeSwitch.module.scss"
 
 export default function ThemeSwitch()
 {

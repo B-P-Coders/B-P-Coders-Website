@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import styles from "../styles/index.module.scss"
+import * as styles from "../styles/index.module.scss"
 
 export default function Index()
 {
