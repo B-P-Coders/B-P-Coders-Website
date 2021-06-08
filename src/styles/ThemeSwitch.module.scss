@@ -10,9 +10,11 @@
         padding: 0px;
         letter-spacing: 0px;
         text-align: center;
-        width: 1rem;
-        height: 1rem;
     }
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
     border: 2px solid var(--bg-color);
     border-radius: 999999px;
 }
