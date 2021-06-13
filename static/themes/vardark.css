@@ -1,5 +1,6 @@
 :root
 {
+    --bg-accent-color: rgb(16, 16, 16);
     --bg-color: rgb(26, 26, 26);
     --text-color: rgb(220, 220, 220);
     --main-color: rgb(70, 70, 70);
