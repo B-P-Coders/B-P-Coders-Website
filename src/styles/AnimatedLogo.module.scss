@@ -1,0 +1,11 @@
+@import "variables";
+
+.main
+{
+    display: grid;
+    place-items: center;
+    canvas
+    {
+        width: 50vw;
+    }
+}

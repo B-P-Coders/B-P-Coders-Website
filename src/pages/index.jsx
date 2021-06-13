@@ -15,7 +15,9 @@ export default function Index()
             <Seo title="Home" />
             <section id="main" className={styles.main}>
                 <AnimatedLogo/>
-                <h1>B&P Coders</h1>
+                <div className={styles.title}>
+                    <h1>B&P Coders</h1>
+                </div>
             </section>
             <section id="quote" className={styles.quote}>
                 <Quote/>
