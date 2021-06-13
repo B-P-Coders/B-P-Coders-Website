@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import CookieConsent from "react-cookie-consent"
 import * as styles from "../styles/Navbar.module.scss"
 
 import NavLink from "./NavLink"
@@ -20,6 +21,15 @@ export default function Navbar()
                     <ThemeSwitch/>
                 </li>
             </ul>
+            <CookieConsent
+                location="bottom"
+                buttonText="Akceptuję"
+                cookieName="Accepted"
+                style={{backgroundImage: "var(--gradient-two)", color: "var(--bg-color)"}}
+                buttonStyle={{backgroundImage: "var(--gradient-one)", color:"var(--bg-color)", border: "1px solid var(--bg-color)", borderRadius: "9999px"}}
+                setDeclineCookie={false}>
+                Ta strona używa plików cookie, wiec zgodnie z dyrektywą Unii Europejskiej pod groźbą surowej kary, uprzejmie o tym informujemy.
+            </CookieConsent>
         </nav>
     )
 }

@@ -12,8 +12,13 @@ export default function Index()
     return (
         <Layout>
             <Seo title="Home" />
-            <p>Oficjalna strona B&P Coders</p>
-            <AnimatedLogo/>
+            <section id="main">
+                <AnimatedLogo/>
+                <h1>B&P Coders</h1>
+            </section>
+            <section id="quote">
+                <blockquote></blockquote>
+            </section>
         </Layout>
     )
 }
