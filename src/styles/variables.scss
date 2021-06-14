@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 // transition time
 $time: 0.5s;
 
@@ -5,9 +8,9 @@ $time: 0.5s;
 $border-rad: 15px;
 
 // fonts
-$title-font: Arial;
-$primary-font: Arial;
-$secondary-font: Arial;
+$title-font: 'Do Hyeon', sans-serif;
+$primary-font: 'Ubuntu Condensed', sans-serif;
+$secondary-font: 'Courgette', cursive;
 
 // padding
 $pad: 3vmin;

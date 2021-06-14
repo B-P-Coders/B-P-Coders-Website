@@ -8,7 +8,10 @@ export default function ProjectLink({ name, link, img })
         <li>
             <a href={link}>
                 <img src={img} alt={name} />
-                <h4>{name}</h4>
+                <h4>{name}
+                
+                
+                </h4>
             </a>
         </li>
     )
