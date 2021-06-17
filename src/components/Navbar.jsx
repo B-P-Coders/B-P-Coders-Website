@@ -16,6 +16,7 @@ export default function Navbar()
             </Helmet>
             <ul>
                 <NavLink name="B&P Coders" link="/"/>
+                <NavLink name="O nas" link="/o-nas"/>
                 <NavLink name="Projekty" link="/projekty"/>
                 <li>
                     <ThemeSwitch/>
