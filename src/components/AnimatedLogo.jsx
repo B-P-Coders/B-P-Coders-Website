@@ -1,12 +1,12 @@
-import React, { useImperativeHandle, useRef } from "react"
+import React, { useEffect, useRef } from "react"
 import * as styles from "../styles/AnimatedLogo.module.scss"
 
 import logo from "../images/coders-logo-color.svg"
 
 export default function AnimatedLogo()
 {
-    const canvas = useRef();
-    useImperativeHandle(canvas, canvasAnimation)
+    const canvas = useRef()
+    useEffect(canvasAnimation)
     const optimalSize = 500
     return(
         <div className={styles.main} onLoad={() => optimalSize = Math.round(Math.sqrt(window.width * window.height) * 0.8)}>
