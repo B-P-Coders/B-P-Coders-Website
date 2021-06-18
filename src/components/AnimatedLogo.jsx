@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react"
+import React, { useEffect, useRef, useImperativeHandle } from "react"
 import * as styles from "../styles/AnimatedLogo.module.scss"
 
 import logo from "../images/coders-logo-color.svg"
@@ -6,6 +6,7 @@ import logo from "../images/coders-logo-color.svg"
 export default function AnimatedLogo()
 {
     const canvas = useRef()
+    useImperativeHandle(canvas, canvasAnimation)
     useEffect(canvasAnimation)
     const optimalSize = 500
     return(
@@ -15,6 +16,7 @@ export default function AnimatedLogo()
     )
     function canvasAnimation()
     {
+        if (!canvas.current) return
         const ctx = canvas.current.getContext("2d")
         ctx.globalCompositeOperation = "lighter"
         const img = new Image(300, 300)
