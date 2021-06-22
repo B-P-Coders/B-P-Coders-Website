@@ -15,14 +15,19 @@
         background-image: var(--gradient-two);
         -webkit-background-clip: text;
         background-clip: text;
-        -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
     }
 }
 .quote
 {
     background-color: var(--bg-accent-color);
-    padding: 5vmax;
+    padding: $secmargin;
+}
+.order
+{
+    padding: $secmargin;
+    display: grid;
+    place-items: center;
+
 }
