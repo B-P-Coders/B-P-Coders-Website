@@ -6,7 +6,7 @@ export default function OrderForm()
 {
     return(
         <div className={styles.border}>
-            <form netlify={true} className={styles.main}>
+            <form data-netlify="true" className={styles.main}>
                 <h1>Złóż zamówienie</h1>
                 <input required type="text" name="name" placeholder="Imię i nazwisko"/>
                 <br />
