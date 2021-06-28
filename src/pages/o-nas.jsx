@@ -21,6 +21,11 @@ export default function ONas()
 B&P Coders to grupa programistów chcących swoją pracą w dziale IT zmieniać świat na lepsze. Działalność naszej organizacji rozpoczęła się nieformalnie już w 2021r. napędzana pragnieniem samorozwoju i zbudowania czegoś większego. 
 Później nasze ambicje i osiągnięcia jedynie rosły... 
         </p>
+        <p className={styles.text}>
+            <span className={styles.naglowek}> Kontakt </span> <br></br><br></br>
+            Jeśli chcesz się z nami skontaktować w dowolnej sprawie, możesz do nas napisać na adres mailowy <span className={styles.kontakt}>B.P.Studio@INT.PL</span> lub zadzwonić na numer telefonu <span className={styles.kontakt}>+48 602 622 102</span>.
+        </p>
+
 
         </Layout> 
     )
