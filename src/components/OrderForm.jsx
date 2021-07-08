@@ -8,6 +8,7 @@ export default function OrderForm()
         <div className={styles.border}>
             <form method="POST" data-netlify="true" data-netlify-honeypot="bot-field" className={styles.main}>
                 <h1>Złóż zamówienie</h1>
+                <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="order"/>
                 <input required type="text" name="name" placeholder="Imię i nazwisko"/>
                 <br />
