@@ -6,11 +6,11 @@ export default function SocalmediaIcons()
     const media = [
         {
             icon: "fab fa-facebook-square",
-            link: "https://www.facebook.com/pages/category/Video-Game/Clicker-korony-100514545571207/",
+            link: "https://www.facebook.com/BP-Coders-108162661451701",
         },
         {
             icon: "fab fa-facebook-messenger",
-            link: "https://m.me/100514545571207"
+            link: "https://m.me/108162661451701"
         },
         {
             icon: "fas fa-envelope",
@@ -25,8 +25,8 @@ export default function SocalmediaIcons()
             link: "https://github.com/B-P-Coders"
         },
         {
-            icon: "fas fa-code-branch",
-            link: "https://github.com/B-P-Coders/covid-clicker"
+            icon: "fas fa-donate",
+            link: "https://ko-fi.com/bpcoders"
         }
     ]
     return(
