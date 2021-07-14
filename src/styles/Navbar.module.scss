@@ -50,7 +50,7 @@
     .mainon {
         position: absolute;
         height: 100%;
-        top: 10vh;
+        top: 15vh;
         bottom: 5vh;
         background-color: rgb(48, 48, 48);
         width: 94%;
@@ -63,6 +63,7 @@
         text-transform: uppercase;
         z-index: 1;
         transition: all 0.5s ease;
+        border-radius: 30px 30px 30px 30px;
     }
 
     .main {
