@@ -1,20 +1,30 @@
-import React from "react"
+import React, {useState} from "react"
 import { Helmet } from "react-helmet"
 import CookieConsent from "react-cookie-consent"
 import * as styles from "../styles/Navbar.module.scss"
-
 import NavLink from "./NavLink"
 import ThemeSwitch from "./ThemeSwitch"
 
+
+
 export default function Navbar()
+
 {
+
+    const [isRel, setIsRel] = useState(false);
+
     return(
         <nav className={styles.nav}>
             <Helmet>
                 {/* portal do head */}
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
             </Helmet>
-            <ul>
+            <div className={isRel ? styles.burger + " " + styles.burgeron : styles.burger} onClick={() => setIsRel(!isRel)}>
+                <div className={styles.line1}></div>
+                <div className={styles.line2}></div>
+                <div className={styles.line3}></div>
+            </div>
+            <ul className={isRel ? styles.mainon : styles.main}>
                 <NavLink name="B&P Coders" link="/"/>
                 <NavLink name="O nas" link="/o-nas"/>
                 <NavLink name="Projekty" link="/projekty"/>
