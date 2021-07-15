@@ -6,12 +6,16 @@ export default function ProjectLink({ name, link, img, desc})
 {
     return (
         <li className={styles.main}>
-            <a href={link} className={styles.imgcontainer}>
-                <img src={img} alt={name}  />
-            </a>
-            <h4 className={styles.text}>
-                {name} {desc}
-            </h4>
+            <div className={styles.imgcontainer}>
+                <a href={link}>
+                    <img src={img} alt={name}  />
+                </a>
+                <div className={styles.textcon}>
+                    <h4 className={styles.text}>
+                        {name} {desc}
+                    </h4>
+                </div>
+            </div>
         </li>
     )
 }

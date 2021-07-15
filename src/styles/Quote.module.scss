@@ -15,7 +15,7 @@
     vertical-align: super;
     width: 100%;
     overflow: hidden;
-    box-shadow: $shadow;
+    box-shadow: var(--shadow);
     &::before
     {
         color: var(--primary-color);

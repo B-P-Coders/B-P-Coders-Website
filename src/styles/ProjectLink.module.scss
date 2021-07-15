@@ -5,11 +5,27 @@
     border: 2px solid nth($list: (var(--primary-color), var(--secondary-color), var(--accent-color)), $n: random($limit: 3));
     border-radius: $border-rad;
     overflow: hidden;
+    
+}
+
+.main:hover {
+    .textcon {
+        opacity: 1;
+        
+    }
+    .imgcontainer img {
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            z-index: 0;
+            filter: brightness(40%) blur($bl);
+    }
 }
 
 .imgcontainer
 {
     overflow: hidden;
+    position: relative;
     img
     {
         transition: all $time ease;
@@ -23,7 +39,9 @@
             -moz-transform: scale(1.2);
             z-index: 0;
             filter: brightness(40%) blur($bl);
+
         }
+        
     }
 }
 
@@ -31,8 +49,6 @@
 {
     font-family: $primary-font;
     color: var(--text-color);
-    position: absolute;
-    margin-right: 5%;
     width: 90%;
     text-align: center;
     transform: translate(0px, -3rem);
@@ -43,4 +59,12 @@
     }
 }
 
+.textcon {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 0;
+}
 

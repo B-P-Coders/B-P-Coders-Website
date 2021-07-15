@@ -1,7 +1,7 @@
 @import "variables";
 
 @mixin cien {
-    box-shadow: $shadow;
+    box-shadow: var(--shadow);
 }
 
 .border
