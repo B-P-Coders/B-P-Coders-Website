@@ -17,4 +17,6 @@
     place-items: center;
     border: 2px solid var(--text-color);
     border-radius: 999999px;
+    cursor: pointer;
+    transition: all 1s ease;
 }

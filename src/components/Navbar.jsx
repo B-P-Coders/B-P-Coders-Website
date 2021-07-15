@@ -20,10 +20,11 @@ export default function Navbar()
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
             </Helmet>
             <div className={isRel ? styles.burger + " " + styles.burgeron : styles.burger} onClick={() => setIsRel(!isRel)}>
-                <div className={styles.line1}></div>
-                <div className={styles.line2}></div>
-                <div className={styles.line3}></div>
+                    <div className={styles.line1}></div>
+                    <div className={styles.line2}></div>
+                    <div className={styles.line3}></div>
             </div>
+            <div className={isRel ? styles.liston : styles.list}>
             <ul className={isRel ? styles.mainon : styles.main}>
                 <NavLink name="B&P Coders" link="/"/>
                 <NavLink name="O nas" link="/o-nas"/>
@@ -32,6 +33,7 @@ export default function Navbar()
                     <ThemeSwitch/>
                 </li>
             </ul>
+            </div>
             <CookieConsent
                 location="bottom"
                 buttonText="Akceptuję"

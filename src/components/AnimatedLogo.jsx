@@ -23,5 +23,6 @@ export default function AnimatedLogo()
         img.src = logo
         ctx.drawImage(img, (canvas.current.width / 2) - (img.width / 1.5), (canvas.current.height / 2) - (img.height / 1.5))
         // Paweł zrób animacje 
+
     }
 }
