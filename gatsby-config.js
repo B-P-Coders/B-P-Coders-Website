@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Oficjalna strona B&P Coders`,
-    description: `Opis`,
-    author: ``, //  ^
-    //      ^       |
-    //      |       |   Paweł zajmij się tym
+    title: `B&P Coders`,
+    description: `Oficjalna strona B&P Coders`, 
+    author: `@B&P Coders`, 
+    //      ^                ^
+    //      |                |   Paweł zajmij się tym
   },
   plugins: [
     `gatsby-plugin-sass`,
