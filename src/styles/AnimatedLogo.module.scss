@@ -1,7 +1,7 @@
 @import "variables";
 
 $dash: 300;
-$dur: 4s;
+$dur: 6s;
 
 .main
 {
@@ -17,16 +17,19 @@ $dur: 4s;
         animation: patha $dur ease-out;
     }
     .st0{
-        fill:var(--primary-color);
+        fill:#00000000;
         animation: st0a $dur ease-out;
+        animation-fill-mode: forwards;
     }
     .st1{
-        fill:var(--secondary-color);
+        fill:#00000000;
         animation: st1a $dur ease-out;
+        animation-fill-mode: forwards;
     }
     .st2{
-        fill:var(--accent-color);
+        fill:#00000000;
         animation: st2a $dur ease-out;
+        animation-fill-mode: forwards;
     }
 }
 @keyframes st0a
