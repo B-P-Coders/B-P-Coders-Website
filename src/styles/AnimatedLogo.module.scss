@@ -1,5 +1,8 @@
 @import "variables";
 
+$dash: 300;
+$dur: 4s;
+
 .main
 {
     display: grid;
@@ -7,5 +10,58 @@
     canvas
     {
         width: 50vw;
+    }
+    path
+    {
+        stroke-dasharray: $dash;
+        animation: patha $dur ease-out;
+    }
+    .st0{
+        fill:var(--primary-color);
+        animation: st0a $dur ease-out;
+    }
+    .st1{
+        fill:var(--secondary-color);
+        animation: st1a $dur ease-out;
+    }
+    .st2{
+        fill:var(--accent-color);
+        animation: st2a $dur ease-out;
+    }
+}
+@keyframes st0a
+{
+    from{
+        fill:#00000000;
+    }
+    to{
+        fill:var(--primary-color);
+    }
+}
+@keyframes st1a
+{
+    from{
+        fill:#00000000;
+    }
+    to{
+        fill:var(--secondary-color);
+    }
+}
+@keyframes st2a
+{
+    from{
+        fill:#00000000;
+    }
+    to{
+        fill:var(--accent-color);
+    }
+}
+@keyframes patha
+{
+    from{
+        stroke-dashoffset: $dash;
+    }
+    to{
+        stroke-dashoffset: 0;
     }
 }
