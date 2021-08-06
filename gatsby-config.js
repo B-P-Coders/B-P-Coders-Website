@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: "https://bpstudio.ml",
     title: `B&P Coders`,
     description: `Oficjalna strona B&P Coders`, 
     author: `@B&P Coders`, 
@@ -10,6 +11,13 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "G-Z8Q1SYV6K0",
+      },
+    },
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
