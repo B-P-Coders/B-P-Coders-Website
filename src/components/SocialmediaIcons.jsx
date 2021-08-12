@@ -6,7 +6,7 @@ export default function SocalmediaIcons()
     const media = [
         {
             icon: "fab fa-facebook-square",
-            link: "https://www.facebook.com/BP-Coders-108162661451701",
+            link: "https://fb.me/bpcoderz",
         },
         {
             icon: "fab fa-facebook-messenger",
@@ -14,7 +14,7 @@ export default function SocalmediaIcons()
         },
         {
             icon: "fas fa-envelope",
-            link: "mailto:bp.studio@interial.pl"
+            link: "mailto:kontakt@bpstudio.ml"
         },
         {
             icon: "fas fa-phone",
