@@ -17,6 +17,6 @@ export default function Typing() {
         })
       }, []);
     return (
-        <h1 className={styles.cursor}><span ref={ityped}></span></h1>
+        <h1 className={styles.cursor}><span ref={ityped}>ESsa</span></h1>
     )
 }
