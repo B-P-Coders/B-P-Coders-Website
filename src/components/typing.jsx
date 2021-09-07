@@ -15,8 +15,8 @@ export default function Typing() {
           strings: ['B&P Coders:',  'Bartosz Mółka',  'Bartosz Turczyński',  'Piotr Nowakowski',  'Paweł Floryan'],
           backDelay: 1000 
         })
-      }, []);
+      }, );
     return (
-        <h1 className={styles.cursor}><span ref={ityped}>ESsa</span></h1>
+        <h1 className={styles.cursor}><span ref={ityped}></span></h1>
     )
 }

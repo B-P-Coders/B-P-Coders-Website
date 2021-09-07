@@ -9,7 +9,7 @@
    background-image: var(--gradient-three);
    padding: 3px;
    border-radius: $border-rad;
-   width: 70%;
+   width: 90%;
    @include cien;
 }
 .main
@@ -27,6 +27,9 @@
 
     & h1 {
         text-align: center;
+        word-wrap: normal;
+        word-break: normal;
+        margin-left: 5vmin;
     }
 
     & > input, & > textarea
@@ -53,3 +56,4 @@
         margin-left: 25%;
     }
 }
+
