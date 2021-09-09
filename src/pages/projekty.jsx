@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 import ProjectLink from "../components/ProjectLink"
 import * as styles from "../styles/projekty.module.scss"
 import covidBanner from "../images/covid-clicker-banner.png"
-import textige from "../images/Logo.svg"
-import chodza from "../images/banner.webp"
+import textige from "../images/textige-banner.png"
+import chodza from "../images/chodza-sluchy-banner.webp"
 
 export default function Projekt()
 {
